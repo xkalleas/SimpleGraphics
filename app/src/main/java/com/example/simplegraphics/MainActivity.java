@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         PanAndZoomListener pzListener = new PanAndZoomListener(frameLayout, imagebutton);
 
         frameLayout.setOnTouchListener(pzListener);
-        imagebutton.setOnTouchListener(pzListener);
+        //imagebutton.setOnTouchListener(pzListener);
 
     }
 }
