@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         frameLayout.addView(imagebutton);
 
-        /*
+
         imagebutton.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "You have got it!", Toast.LENGTH_SHORT).show();
             }
         });
-        */
 
         PanAndZoomListener pzListener = new PanAndZoomListener(frameLayout, imagebutton);
 
